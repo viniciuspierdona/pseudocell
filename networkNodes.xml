@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+    <nodes>
+        <node knockdown="false" name="AADeprivation" restingStatus="100.0" status="0.0" type="general"/>
+        <node knockdown="false" name="ABL1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="AFAP1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="AKT1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="AMPK" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ANP32A" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="APAF1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ARAP1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ARF1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ARF5" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ARFGEF1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ARP2_3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ASAP1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ASAP2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ATF2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ATG1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ATM" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ATP2A1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ATP2A2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ATP2A3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ATP2B1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ATP2B2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ATP2B3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ATP2B4" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ATP2C1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ATP2C2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ATR" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ActomyosinFibers" restingStatus="0.0" status="0.0" type="general"/>
+        <node knockdown="false" name="Apoptose" restingStatus="0.0" status="0.0" type="general"/>
+        <node knockdown="false" name="ArachidonicAcid" restingStatus="0.0" status="0.0" type="general"/>
+        <node knockdown="false" name="Autophagosome" restingStatus="0.0" status="0.0" type="general"/>
+        <node knockdown="false" name="Autophagy" restingStatus="0.0" status="0.0" type="general"/>
+        <node knockdown="false" name="BAD" restingStatus="1.0" status="0.0" type="default"/>
+        <node knockdown="false" name="BAK" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="BAX" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="BCAR1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="" knockdown="false" name="BCL2" restingStatus="0.0" status="0.0" type="BCL2">
+            <modification name="Thr56" restingStatus="0.0" status="0.0"/>
+            <modification name="Thr69" restingStatus="0.0" status="0.0"/>
+            <modification name="Ser70" restingStatus="0.0" status="0.0"/>
+            <modification name="Ser87" restingStatus="0.0" status="0.0"/>
+        </node>
+        <node knockdown="false" name="BCL2A1" restingStatus="1.0" status="0.0" type="default"/>
+        <node knockdown="false" name="BCL2L2" restingStatus="1.0" status="0.0" type="default"/>
+        <node knockdown="false" name="BCLXL" restingStatus="1.0" status="0.0" type="default"/>
+        <node knockdown="false" name="BCR" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="BECN1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="BFL1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="BID" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="BIK" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="BIM" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="BIRC2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="BIRC3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="BMF" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CACNA1A" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CACNA1B" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CACNA1C" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CACNA1D" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CACNA1E" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CACNA1F" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CACNA1G" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CACNA1H" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CACNA1I" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CACNA1S" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="DFFB" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CALM1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CALR" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CAMK2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CAPN1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CASK" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CASP10" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CASP2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CASP3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CASP7" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CASP8" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CASP9" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CAT" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CBL" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CBLB" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CBP" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CCL11" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CCL13" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CCL2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CCL24" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CCL26" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CCL3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CCL5" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CCL7" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CCL8" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CCR1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CCR2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CCR3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CCR5" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CD200" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CD200R1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CD22" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CD2AP" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CD300LF" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CDC42" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CDH1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CDH2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CDK2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CDK4_6" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CDKN1A" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CDKN1B" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CDKN2A" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CEP78" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CERS1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CFL1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CHEK1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CHEK2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CHUK" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CIB1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CIP2A" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CISH" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CIT" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CLEC4C" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CPP110" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CRK" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CRKL" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CSF1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CSF1R" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CSF3R" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CSK" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CSNK1A1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CXCL10" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CXCL12" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CXCL8" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CXCR3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CXCR4" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CYBA" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CYBB" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ComplexI" restingStatus="0.0" status="0.0" type="general"/>
+        <node knockdown="false" name="ComplexII" restingStatus="0.0" status="0.0" type="general"/>
+        <node knockdown="false" name="ComplexIII" restingStatus="0.0" status="0.0" type="general"/>
+        <node knockdown="false" name="ComplexIV" restingStatus="0.0" status="0.0" type="general"/>
+        <node knockdown="false" name="CtBP" restingStatus="1.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CytochromeC" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CytochromeCRelease" restingStatus="0.0" status="0.0" type="general"/>
+        <node knockdown="false" name="DCAF1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="DCC" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="DDB1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="DIABLO" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="DIAPH1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="DNADamage" restingStatus="0.0" status="0.0" type="general"/>
+        <node knockdown="false" name="DNAResection" restingStatus="0.0" status="0.0" type="general"/>
+        <node knockdown="false" name="DOCK1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="DOK1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="DOK2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="DOK3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="DRAM1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="DSB" restingStatus="0.0" status="0.0" type="general"/>
+        <node knockdown="false" name="DSF" restingStatus="0.0" status="0.0" type="drug"/>
+        <node knockdown="false" name="DUSP1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="DYRK1A" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="DYRK2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="DYRK3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="E2F1" restingStatus="1.0" status="0.0" type="default"/>
+        <node knockdown="false" name="EDVPComplex" restingStatus="0.0" status="0.0" type="general"/>
+        <node knockdown="false" name="EGFR" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="EGLN3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ELK1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ELK4" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ELMO1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="EPO" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="EPOR" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ERK1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ERK2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="FADD" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="FAS" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="FASL" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="FCER1G" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="FCGR2B" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="FGR" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="FIG4" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="FKBP1A" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="FKBP1B" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="FOS" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="FOXK1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="FOXO3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="FOXP3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="FXYD1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="FYN" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="GAB1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="GAB2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="GABARAP" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="GABARAPL2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="GPX1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="GRB2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="GRB7" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="GSK3A" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="GSK3B" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="GSR" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="GYS1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="H1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="H2AX" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="HCK" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="HGF" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="HIPK2" restingStatus="1.0" status="0.0" type="default"/>
+        <node knockdown="false" name="HIST2H2BE" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="HIST3H3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="HOMER1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="HRK" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="HSP90AA1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="HSPB1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="HVA" restingStatus="0.0" status="0.0" type="general"/>
+        <node knockdown="false" name="IAP2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ICAD" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IFNB1" restingStatus="1.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IGFBP1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IKBKB" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IKBKG" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IL1A" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IL1B" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IL1R1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IL1R2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IL1RAP" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IL1RN" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IL34" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IL4" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IL4R" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IL6" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IL6R" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="INPP4B" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="INPP5D" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="INPPL1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IP3R1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IP3R2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IP3R3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IQSEC1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IRAK1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IRAK2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IRAK4" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IRS1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="JAK1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="JAK2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="JMY" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="JNK1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="JNK2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="JNK3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="JUN" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="KAT5" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="KATNA1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="KCNIP3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="KHDRBS1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="KHSRP" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="KIT" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="KITLG" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="KLRG1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="LCK" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="LCMT1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="LILRA4" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="LIMK2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="LVA" restingStatus="0.0" status="0.0" type="general"/>
+        <node knockdown="false" name="LYN" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="MAP1LC3A" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="MAP2K1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="MAP2K3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="MAP2K4" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="MAP2K6" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="MAP2K7" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="MAP3K1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="MAP3K3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="MAP3K5" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="MAP3K7" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="MAP3K8" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="MAP4K3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="MAPK12" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="MAPK13" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="MAPKAPK2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="MCL1" restingStatus="1.0" status="0.0" type="default"/>
+        <node knockdown="false" name="MCU" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="MDC1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="MDM2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="MET" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="MPO" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="MRN" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="MTM1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="MTMR1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="MTMR2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="MTMR3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="MTMR6" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="MYD88" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="MYLK" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="NCF1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="NCF2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="NCF4" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="NCK1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="NFATC1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="NFATC2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="NFATC3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="NFATC4" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="NFkB" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="NHEJ" restingStatus="0.0" status="0.0" type="general"/>
+        <node knockdown="false" name="NKRF" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="NOD1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="NOD2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="NODosome" restingStatus="0.0" status="0.0" type="general"/>
+        <node knockdown="false" name="NOS1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="NOS2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="NOTCH1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="NOXA" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="NR1I2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="NR4A1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="NTN1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="NuRDComplex" restingStatus="0.0" status="0.0" type="general"/>
+        <node knockdown="false" name="ORAI1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PIDD1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PARP1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PCAF" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PDE4D" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PDGFA" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PDGFAA" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PDGFAB" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PDGFB" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PDGFBB" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PDGFRA" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PDGFRB" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PDPK1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PDYN" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PECAM1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PELI1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PELI2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PELI3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PFN1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PI3K" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PIKFYVE" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PIM1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PKA" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PKN1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PKN2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PKN2_F" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PLA2G4A" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PLA2G4C" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PLCB2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PLCG1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PLCG2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PLN" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PME1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="POU2F1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PP1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="" knockdown="false" name="PP2A" restingStatus="0.0" status="0.0" type="PP2A">
+            <modification name="PPP2R2" restingStatus="0.0" status="0.0"/>
+            <modification name="PPP2R5" restingStatus="0.0" status="0.0"/>
+            <modification name="PPP2R3" restingStatus="0.0" status="0.0"/>
+        </node>
+        <node knockdown="false" name="PP2B" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PPM1D" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PPP1CB" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PPP1R12A" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PPP1R13B" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PRKCA" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PRKCB" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PRKCD" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PRKCE" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PRKCH" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PRKCZ" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PRKD1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PRKDC" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PTEN" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PTK2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PTPA" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PTPN11" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PTPN6" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PUMA" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PURA" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PURB" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ProCASP10" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ProCASP8" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ProCASP9" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="RAC1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="RAC2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="RAF1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="RAP1A" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="RAP2A" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="RAPGEF1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="RAPGEF3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="RAS" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="RASA1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="RASSF1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="RELA" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="RELB" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="RHOA" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="RHOG" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="" knockdown="false" name="RIPK1" restingStatus="0.0" status="0.0" type="RIPK1">
+            <modification name="ComplexI" restingStatus="0.0" status="0.0"/>
+            <modification name="ComplexII" restingStatus="0.0" status="0.0"/>
+        </node>
+        <node knockdown="false" name="RIPK2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="RND3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="RNF168" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="RNF8" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ROCK1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ROCK2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="RPS6KB1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="RYR1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="RYR2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="RYR3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="Rb" restingStatus="1.0" status="0.0" type="default"/>
+        <node knockdown="false" name="S100A1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="SET" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="SGK1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="SGK2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="SGK3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="SGMS1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="SH3KBP1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="SHC1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="SIAH1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="SIAH2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="SIRT1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="SLA2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="SLC24A1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="SLC24A2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="SLC8A1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="SLC8A1_n" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="SLC8A2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="SLC8A2_n" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="SLC8A3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="SLC8A3_n" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="SLC8B1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="SLN" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="SMPD1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="SOD1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="SOS1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="SOS2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="SP1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="SP3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="SRC" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="STAT1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="STAT3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="STAT5" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="STIM1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="STIM2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="SYK" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="Starvation" restingStatus="0.0" status="0.0" type="general"/>
+        <node knockdown="false" name="Survivin" restingStatus="1.0" status="0.0" type="default"/>
+        <node knockdown="false" name="TAB1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="TAB2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="TAB3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="TEC" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="TERT" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="TIAM1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="TIP" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="TP53BP1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="TP53BP2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="TP53I3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="TP53INP1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="TP53INP2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="TRAF6" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="TRIM28" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="TSC2" restingStatus="1.0" status="0.0" type="default"/>
+        <node knockdown="false" name="UBR5" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="UNC5A" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="UNC5B" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="UNC5C" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="UNC5D" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="VAC14" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="VAV1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="VAV2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="VMP1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="VRK1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="WAS" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="WASF1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="WASL" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="WIPF1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="XIAP" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="YBX1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ZFP36" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="mTORC1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="mTORC2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="mir155" restingStatus="0.0" status="0.0" type="miRNA"/>
+        <node knockdown="false" name="p300" restingStatus="0.0" status="0.0" type="miRNA"/>
+        <node knockdown="false" name="p38" restingStatus="0.0" status="0.0" type="miRNA"/>
+        <node hasModifications="" knockdown="false" name="P53" restingStatus="0.0" status="0.0" type="P53">
+            <modification name="Ser15" restingStatus="0.0" status="0.0"/>
+            <modification name="Thr18" restingStatus="0.0" status="0.0"/>
+            <modification name="Ser20" restingStatus="0.0" status="0.0"/>
+            <modification name="Ser33" restingStatus="0.0" status="0.0"/>
+            <modification name="Ser37" restingStatus="0.0" status="0.0"/>
+            <modification name="Ser46" restingStatus="0.0" status="0.0"/>
+            <modification name="Thr55" restingStatus="0.0" status="0.0"/>
+            <modification name="Lys120" restingStatus="0.0" status="0.0"/>
+            <modification name="Lys164" restingStatus="0.0" status="0.0"/>
+            <modification name="Lys305" restingStatus="0.0" status="0.0"/>
+            <modification name="Lys320" restingStatus="0.0" status="0.0"/>
+        </node>
+        <node knockdown="false" name="sIL1R1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="sIL1R2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="sIL1RAP" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="tBID" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="TAF1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="Apigenin" restingStatus="0.0" status="0.0" type="drug"/>
+        <node knockdown="false" name="SSB" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CBX4" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PIAS3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CDC25A" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CDC25B" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CDC25C" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CDK1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CCND" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CCNE" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CCNA" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="DNAReplication" restingStatus="0.0" status="0.0" type="general"/>
+        <node knockdown="false" name="WEE1" restingStatus="1.0" status="1.0" type="default"/>
+        <node knockdown="false" name="HIF1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PSMC3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="HMGB1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="AGER" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="S100B" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="S100P" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CD36" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ITGAM" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CTLA4" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IL12R" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="AGT" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="AGTR1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="BRCA1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CRLF2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CSF2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="JAK3" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="ERBB2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="FES" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="GHR" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="TYK2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="GH1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="HES1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="HES2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="HTR2A" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="PLCB1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IFNGR" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IGF1R" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="SOCS1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IRF1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IL23R" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IL3R" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IL13R" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="IL5R" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="INSR" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="TIRAP" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="FOXO4" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="FOXO1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="MSN" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="TNF" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="TNFRSF1A" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="TNFRSF1B" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="TRADD" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="TRAF2" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="TRAF5" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="CYLD" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="TRAF1" restingStatus="0.0" status="0.0" type="default"/>
+        <node knockdown="false" name="Telomere" restingStatus="0.0" status="100.0" type="general"/>
+        <node knockdown="false" name="AMP" restingStatus="0.0" status="1.0" type="metabolite">
+            <property income="-0.5" maxValue="2.0" minValue="1.0"/>
+        </node>
+        <node knockdown="false" name="Ca_c" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="0.0" maxValue="3.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="Ca_ec" restingStatus="0.0" status="2.0" type="metabolite">
+            <property income="1.0" maxValue="3.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="Ca_er" restingStatus="0.0" status="2.0" type="metabolite">
+            <property income="0.0" maxValue="4.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="Ca_g" restingStatus="0.0" status="1.0" type="metabolite">
+            <property income="0.0" maxValue="2.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="Ca_m" restingStatus="0.0" status="2.0" type="metabolite">
+            <property income="0.0" maxValue="3.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="Ca_n" restingStatus="0.0" status="1.0" type="metabolite">
+            <property income="0.0" maxValue="2.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="Ceramide" restingStatus="0.0" status="1.0" type="metabolite">
+            <property income="0.2" maxValue="2.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="DAG" restingStatus="0.0" status="1.0" type="metabolite">
+            <property income="-0.2" maxValue="3.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="Fumarate" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="-0.5" maxValue="3.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="GM1" restingStatus="0.0" status="1.0" type="metabolite">
+            <property income="0.0" maxValue="0.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="GSH" restingStatus="0.0" status="2.0" type="metabolite">
+            <property income="0.0" maxValue="3.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="GSSG" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="0.0" maxValue="3.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="H2O" restingStatus="0.0" status="1.0" type="metabolite">
+            <property income="-0.5" maxValue="3.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="H2O2" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="0.0" maxValue="3.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="HOCl" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="-0.5" maxValue="3.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="IP3" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="-0.1" maxValue="2.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="MDP" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="0.0" maxValue="2.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="NAD" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="-0.5" maxValue="3.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="NADH" restingStatus="0.0" status="1.0" type="metabolite">
+            <property income="0.1" maxValue="3.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="NADP" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="-0.5" maxValue="3.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="NADPH" restingStatus="0.0" status="1.0" type="metabolite">
+            <property income="0.1" maxValue="3.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="NitricOxide" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="-0.5" maxValue="3.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="OH" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="-0.2" maxValue="3.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="Oxygen" restingStatus="0.0" status="1.0" type="metabolite">
+            <property income="2.0" maxValue="3.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="PI345P" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="-0.1" maxValue="2.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="PI34P" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="-0.1" maxValue="2.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="PI35P" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="-0.1" maxValue="2.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="PI3P" restingStatus="0.0" status="1.0" type="metabolite">
+            <property income="-0.1" maxValue="2.0" minValue="1.0"/>
+        </node>
+        <node knockdown="false" name="PI45P" restingStatus="0.0" status="2.0" type="metabolite">
+            <property income="-0.1" maxValue="2.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="PI5P" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="-0.1" maxValue="2.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="Peroxynitrite" restingStatus="0.0" status="1.0" type="metabolite">
+            <property income="0.0" maxValue="0.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="PtdIns" restingStatus="0.0" status="2.0" type="metabolite">
+            <property income="0.2" maxValue="2.0" minValue="1.0"/>
+        </node>
+        <node knockdown="false" name="Succinate" restingStatus="0.0" status="1.0" type="metabolite">
+            <property income="0.1" maxValue="3.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="Superoxide" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="0.0" maxValue="3.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="Ubiquinol" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="0.0" maxValue="3.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="Ubiquinone" restingStatus="0.0" status="3.0" type="metabolite">
+            <property income="0.0" maxValue="3.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="Ubisemiquinone" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="0.0" maxValue="3.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="cAMP" restingStatus="0.0" status="1.0" type="metabolite">
+            <property income="0.0" maxValue="3.0" minValue="1.0"/>
+        </node>
+        <node knockdown="false" name="G1_Phase" restingStatus="0.0" status="1.0" type="metabolite">
+            <property income="0.0" maxValue="1.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="S_Phase" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="0.0" maxValue="1.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="G2_Phase" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="0.0" maxValue="1.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="Mitosis" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="0.0" maxValue="1.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="MitosisStimule" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="0.2" maxValue="2.0" minValue="0.0"/>
+        </node>
+        <node knockdown="false" name="AGE" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="-0.25" maxValue="2.0" minValue="0.0"/>
+        </node>
+    </nodes>
+</root>
