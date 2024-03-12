@@ -1,0 +1,1589 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+    <nodes>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="AADeprivation" restingStatus="0.0" status="0.0" type="general"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ABL1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:DOK1#&gt;=1|Node:DSB#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="AFAP1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:SRC#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="AKT1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:RNF168#&gt;=1|Node:mTORC2#&gt;=1|Node:PI34P#&gt;=0.5|Node:PI345P#&gt;=0.5|Node:ATM#&gt;=1|Node:ATR#&gt;=1|(Node:IFNGR#&gt;=1&amp;Node:JAK2#&gt;=1))&amp;Node:PTEN#==0&amp;Node:PKN2_F#==0&amp;(Node:PP2A#==0|(Node:PP2A#&gt;=1&amp;Mod:PP2A#PPP2R2;==0.0)|Node:HSP90AA1#&gt;=1)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="AMPK" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:ATM#&gt;=1|Node:STK11#&gt;=1|Node:SESN1#&gt;=1|Node:SESN2#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="ANP32A" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="APAF1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CytochromeCRelease#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ARAP1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:SH3KBP1#&gt;=1|Node:PI345P#&gt;=0.5" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="ARF1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="ARF5" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="ARFGEF1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ARP2_3" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:WAS#&gt;=1|Node:WASF1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ASAP1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:CRK#&gt;=1|Node:SRC#&gt;=1|Node:CBL#&gt;=1|Node:SH3KBP1#&gt;=1)&amp;Node:PI45P#&gt;=0.5" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ASAP2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:SH3KBP1#&gt;=1&amp;Node:CBL#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ATF2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:MAPK14#&gt;=1|Node:JNK1#&gt;=1|Node:JNK2#&gt;=1|Node:JNK3#&gt;=1|Node:ERK1#&gt;=1|Node:ERK2#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ATG1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:AMPK#&gt;=1|(Node:PP2A#&gt;=1&amp;Mod:PP2A#PPP2R2;==1.0))&amp;Node:mTORC1#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ATM" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:MRN#&gt;=1|(Node:FOXO3#&gt;=1&amp;Node:KAT5#&gt;=1&amp;Node:NOTCH1#==0))&amp;Node:PPM1D#==0" ruleType="default"/>
+            <rule nodeStatus="2.0" ruleString="((Node:MRN#&gt;=1|(Node:FOXO3#&gt;=1&amp;Node:KAT5#&gt;=1&amp;Node:NOTCH1#==0))&amp;Node:E2F1#&gt;=1)&amp;Node:PPM1D#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ATP2A1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:PLN#==0&amp;Node:SLN#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ATP2A2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:S100A1#&gt;=1&amp;(Node:PLN#==0&amp;Node:SLN#==0&amp;Node:CALR#==0&amp;Node:IRS1#==0)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="ATP2A3" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ATP2B1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CALM1#&gt;=1|Node:CAPN1#&gt;=1" ruleType="default"/>
+            <rule nodeStatus="2.0" ruleString="(Node:CALM1#&gt;=1|Node:CAPN1#&gt;=1)&amp;(Node:PI45P#&gt;=0.5|Node:PKA#&gt;=1)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ATP2B2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CALM1#&gt;=1|Node:CAPN1#&gt;=1" ruleType="default"/>
+            <rule nodeStatus="2.0" ruleString="(Node:CALM1#&gt;=1|Node:CAPN1#&gt;=1)&amp;Node:PI45P#&gt;=0.5" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ATP2B3" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CALM1#&gt;=1|Node:CAPN1#&gt;=1" ruleType="default"/>
+            <rule nodeStatus="2.0" ruleString="(Node:CALM1#&gt;=1|Node:CAPN1#&gt;=1)&amp;Node:PI45P#&gt;=0.5" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ATP2B4" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:CALM1#&gt;=1|Node:CAPN1#&gt;=1)&amp;(Node:PTK2#==0|Node:SRC#==0)" ruleType="default"/>
+            <rule nodeStatus="2.0" ruleString="((Node:CALM1#&gt;=1|Node:CAPN1#&gt;=1)&amp;Node:PI45P#&gt;=0.5)&amp;(Node:PTK2#==0|Node:SRC#==0)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ATP2C1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:Ca_c#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ATP2C2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:Ca_c#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ATR" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:SSB#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ActomyosinFibers" restingStatus="0.0" status="0.0" type="general">
+            <rule nodeStatus="1.0" ruleString="(Node:MYLK#&gt;=1|Node:ARP2_3#&gt;=1|Node:PFN1#&gt;=1|Node:ROCK2#&gt;=1)&amp;(Node:PPP1CB#==0|Node:CFL1#==0)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="Apoptose" restingStatus="0.0" status="0.0" type="general">
+            <rule nodeStatus="1.0" ruleString="(Node:CASP3#&gt;=1|Node:CASP7#&gt;=1)&amp;Node:AKT1#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ArachidonicAcid" restingStatus="0.0" status="0.0" type="general">
+            <rule nodeStatus="1.0" ruleString="Node:PLA2G4A#&gt;=1|Node:PLA2G4C#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="BAD" restingStatus="1.0" status="0.0" type="default">
+            <rule nodeStatus="0.0" ruleString="Node:AKT1#&gt;=1|Node:PIM1#&gt;=1|Node:RAF1#&gt;=1|Node:ERK1#&gt;=1|Node:ERK2#&gt;=1|Node:PKN1#&gt;=1|Node:PKA#&gt;=1" ruleType="default"/>
+            <rule nodeStatus="1.0" ruleString="Node:BAD#==0&amp;Node:PP2A#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="BAK" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:BCL2#&gt;=1&amp;Node:NR4A1#&gt;=1)|Node:tBID#&gt;=1|Node:BIM#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="BAX" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="((Node:TP53#&gt;=1&amp;Mod:TP53#Ser46;==1.0)|Node:tBID#&gt;=1|Node:BIM#&gt;=1|Node:AKT1#&gt;=1)&amp;Node:CtBP#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="BCAR1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:SRC#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="true" hasRules="true" knockdown="false" name="BCL2" restingStatus="0.0" status="1.0" type="BCL2">
+            <modification name="Thr56" restingStatus="0.0" status="0.0"/>
+            <modification name="Thr69" restingStatus="0.0" status="0.0"/>
+            <modification name="Ser70" restingStatus="0.0" status="0.0"/>
+            <modification name="Ser87" restingStatus="0.0" status="0.0"/>
+            <rule modification="Thr56" modificationStatus="0.0" ruleString="(Node:PP2A#&gt;=1&amp;Mod:PP2A#PPP2R5;==1.0)|Node:TP53#&gt;=1" ruleType="modification"/>
+            <rule modification="Thr69" modificationStatus="0.0" ruleString="(Node:PP2A#&gt;=1&amp;Mod:PP2A#PPP2R5;==1.0)|Node:TP53#&gt;=1" ruleType="modification"/>
+            <rule modification="Ser70" modificationStatus="0.0" ruleString="(Node:PP2A#&gt;=1&amp;Mod:PP2A#PPP2R5;==1.0)|Node:TP53#&gt;=1" ruleType="modification"/>
+            <rule modification="Ser87" modificationStatus="0.0" ruleString="(Node:PP2A#&gt;=1&amp;Mod:PP2A#PPP2R5;==1.0)|Node:TP53#&gt;=1" ruleType="modification"/>
+            <rule nodeStatus="0.0" ruleString="Node:PUMA#&gt;=1|Node:BIM#&gt;=1|Node:BAD#&gt;=1|Node:BMF#&gt;=1|Node:TP53#&gt;=1" ruleType="default"/>
+            <rule modification="Thr56" modificationStatus="1.0" ruleString="Node:MAPK14#&gt;=1" ruleType="modification"/>
+            <rule modification="Thr69" modificationStatus="1.0" ruleString="Node:JNK1#&gt;=1|Node:JNK2#&gt;=1|Node:JNK3#&gt;=1" ruleType="modification"/>
+            <rule modification="Ser70" modificationStatus="1.0" ruleString="Node:ERK1#&gt;=1|Node:ERK2#&gt;=1|Node:PRKCA#&gt;=1|Node:JNK1#&gt;=1|Node:JNK2#&gt;=1|Node:JNK3#&gt;=1" ruleType="modification"/>
+            <rule modification="Ser87" modificationStatus="1.0" ruleString="Node:JNK1#&gt;=1|Node:JNK2#&gt;=1|Node:JNK3#&gt;=1|Node:MAPK14#&gt;=1" ruleType="modification"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="BCL2A1" restingStatus="1.0" status="0.0" type="default">
+            <rule nodeStatus="0.0" ruleString="Node:BIM#&gt;=1|Node:BIK#&gt;=1|Node:PUMA#&gt;=1|Node:NOXA#&gt;=1|Node:HRK#&gt;=1|Node:tBID#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="BCL2L2" restingStatus="1.0" status="0.0" type="default">
+            <rule nodeStatus="0.0" ruleString="Node:BIM#&gt;=1|Node:BIK#&gt;=1|Node:PUMA#&gt;=1|Node:BAD#&gt;=1|Node:BMF#&gt;=1|Node:HRK#&gt;=1|Node:tBID#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="BCLXL" restingStatus="1.0" status="0.0" type="default">
+            <rule nodeStatus="0.0" ruleString="Node:TP53#&gt;=1|(Node:BAD#&gt;=1&amp;Node:RSK#==0)|Node:BIM#&gt;=1|Node:PUMA#&gt;=1|Node:BIK#&gt;=1|Node:BMF#&gt;=1|Node:HRK#&gt;=1|Node:tBID#&gt;=1|Node:NonCanonical_NFKB#&gt;=1|Node:Canonical_NFKB#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="BCR" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="BECN1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:ATG1#&gt;=1&amp;(Node:BCL2#==0|(Node:BCL2#&gt;=1&amp;Mod:BCL2#Thr69;==0.0&amp;Mod:BCL2#Ser70;==0.0&amp;Mod:BCL2#Ser87;==0.0))" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="BFL1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:Canonical_NFKB#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="BID" restingStatus="1.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="BIK" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="BIM" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:BCL2#==0&amp;Node:BCLXL#==0&amp;Node:BCL2L2#==0&amp;Node:MCL1#==0Node:BCL2A1#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="BIRC2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:TRAF2#&gt;=1&amp;Node:DIABLO#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="BIRC3" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:TRAF2#&gt;=1&amp;Node:DIABLO#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="BMF" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CACNA1A" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:HVA#&gt;=1&amp;(Node:CALM1#==0&amp;Node:Ca_c#&lt;2)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CACNA1B" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:HVA#&gt;=1&amp;(Node:CALM1#==0&amp;Node:Ca_c#&lt;2)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CACNA1C" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:HVA#&gt;=1&amp;(Node:CALM1#==0&amp;Node:Ca_c#&lt;2)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CACNA1D" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:HVA#&gt;=1&amp;(Node:CALM1#==0&amp;Node:Ca_c#&lt;2)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CACNA1E" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:HVA#&gt;=1&amp;(Node:CALM1#==0&amp;Node:Ca_c#&lt;2)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CACNA1F" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:HVA#&gt;=1&amp;(Node:CALM1#==0&amp;Node:Ca_c#&lt;2)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CACNA1G" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:LVA#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CACNA1H" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:LVA#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CACNA1I" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:LVA#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CACNA1S" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:HVA#&gt;=1&amp;(Node:CALM1#==0&amp;Node:Ca_c#&lt;2)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="DFFB" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:ICAD#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CALM1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CALR" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CAMK2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:RAPGEF3#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CAPN1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CASK" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CASP10" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:FADD#&gt;=1&amp;Node:ProCASP10#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CASP2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:ATR#&gt;=1|Node:CASP3#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CASP3" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:CASP10#&gt;=1|Node:CASP8#&gt;=1|Node:CASP9#&gt;=1)&amp;Node:Survivin#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CASP7" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:CASP10#&gt;=1|Node:CASP8#&gt;=1|Node:CASP9#&gt;=1)&amp;Node:Survivin#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CASP8" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:FADD#&gt;=1&amp;Node:ProCASP8#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CASP9" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:APAF1#&gt;=1&amp;Node:ProCASP9#&gt;=1&amp;Node:AKT1#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CAT" restingStatus="1.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CBL" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CSF1R#&gt;=1|Node:HCK#&gt;=1&amp;(Node:CD2AP#==0&amp;Node:INPP5D#==0)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CBLB" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CBP" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CCL11" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:Canonical_NFKB#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CCL13" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CCL2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:Canonical_NFKB#&gt;=1|Node:JUN#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CCL24" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CCL26" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CCL3" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CCL5" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CCL7" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CCL8" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CCR1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CCL3#&gt;=1|Node:CCL5#&gt;=1|Node:CCL7#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CCR2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:CCL2#&gt;=1|Node:CCL7#&gt;=1)&amp;Node:CCL11#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CCR3" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CCL5#&gt;=1|Node:CCL7#&gt;=1|Node:CCL8#&gt;=1|Node:CCL11#&gt;=1|Node:CCL13#&gt;=1|Node:CCL24#&gt;=1|Node:CCL26#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CCR5" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CCL11#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CD200" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CD200R1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CD200#&gt;=1&amp;Node:CRKL#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CD22" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:BCR#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CD2AP" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:FCER1G#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CD300LF" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CDC42" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CDC42#==0&amp;(Node:VAV1#&gt;=1|Node:VAV2#&gt;=1|Node:DIAPH1#&gt;=1)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CDH1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CDH2" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CDK2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:CDC25A#&gt;=1|Node:CCNE#&gt;=1)&amp;Node:CDKN1A#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CDK4_6" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:MitosisStimule#&gt;=1&amp;Node:CDKN2A#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CDKN1A" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:KAT5#&gt;=1|Node:PRKCA#&gt;=1|Node:STK11#&gt;=1|(Node:TP53#&gt;=1&amp;(Mod:TP53#Ser15;==1.0|Mod:TP53#Lys120;==1.0|Mod:TP53#Lys164;==1.0|Mod:TP53#Lys305;==1.0|Mod:TP53#Ser46;==1.0))|Node:STK11#&gt;=1)&amp;Node:GSK3B#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CDKN1B" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:PRKCA#&gt;=1|Node:FOXO4#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CDKN2A" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:PSMC3#&gt;=1|Node:MAPK14#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CEP78" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CERS1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CFL1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CHEK1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:ATR#&gt;=1&amp;Node:PPM1D#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CHEK2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:ATM#&gt;=1&amp;Node:PPM1D#==0" ruleType="default"/>
+            <rule nodeStatus="2.0" ruleString="(Node:ATM#&gt;=1&amp;Node:E2F1#&gt;=1)&amp;Node:PPM1D#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CHUK" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:IKBKG#&gt;=1|Node:AGER#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CIB1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CIP2A" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CHEK1#&gt;=1&amp;Node:E2F1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CISH" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CSF3R#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CIT" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:RHOA#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CLEC4C" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CPP110" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CRK" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CBL#&gt;=1|Node:DOK1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CRKL" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:SHC1#&gt;=1|Node:PTPN11#&gt;=1|Node:EPOR#&gt;=1|Node:DOK1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CSF1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CSF1R" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:CSF1#&gt;=1|Node:IL34#&gt;=1)&amp;Node:CBL#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CSF3R" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CSF2#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CSK" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:DOK3#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CSNK1A1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CXCL10" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CXCL12" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CXCL8" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:JUN#&gt;=1|Node:FOS#&gt;=1|Node:Canonical_NFKB#&gt;=1|Node:MAPK14#&gt;=1)&amp;(Node:NKRF#==0|Node:Canonical_NFKB#&gt;=1)&amp;Node:NuRDComplex#==0&amp;Node:POU2F1#==0&amp;Node:KHSRP#==0&amp;Node:ZFP36#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CXCR3" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CXCL10#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CXCR4" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CXCL12#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CYBA" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:NCF1#&gt;=1|Node:NCF2#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CYBB" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CYBA#&gt;=1&amp;(Node:RAC1#&gt;=1|Node:RAC2#&gt;=1)&amp;Node:NCF1#&gt;=1&amp;Node:NCF2#&gt;=1&amp;Node:NCF4#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ComplexI" restingStatus="0.0" status="0.0" type="general">
+            <rule nodeStatus="1.0" ruleString="Node:NADH#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ComplexII" restingStatus="0.0" status="0.0" type="general">
+            <rule nodeStatus="1.0" ruleString="Node:Succinate#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ComplexIII" restingStatus="0.0" status="0.0" type="general">
+            <rule nodeStatus="1.0" ruleString="Node:Ubiquinol#&gt;=1&amp;Node:Oxygen#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ComplexIV" restingStatus="0.0" status="0.0" type="general">
+            <rule nodeStatus="1.0" ruleString="Node:CytochromeC#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CtBP" restingStatus="1.0" status="0.0" type="default">
+            <rule nodeStatus="0.0" ruleString="Node:HIPK2#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CytochromeC" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:ComplexIII#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CytochromeCRelease" restingStatus="0.0" status="0.0" type="general">
+            <rule nodeStatus="1.0" ruleString="Node:BAX#&gt;=1|Node:BAK#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="DCAF1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="DCC" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:NTN1#&gt;=1&amp;Node:SIAH2#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="DDB1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="DIABLO" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CytochromeCRelease#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="DIAPH1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:RHOA#&gt;=1|Node:AGER#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="DNADamage" restingStatus="0.0" status="0.0" type="general"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="DNAResection" restingStatus="0.0" status="0.0" type="general"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="DOCK1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:ELMO1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="DOK1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:DOK2#&gt;=1|Node:TEC#&gt;=1|Node:LYN#&gt;=1)&amp;Node:INPP5D#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="DOK2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CD200R1#&gt;=1&amp;Node:DOK1#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="DOK3" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="DRAM1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:TP53#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="DSB" restingStatus="0.0" status="0.0" type="general">
+            <rule nodeStatus="1.0" ruleString="Node:Superoxide#&gt;=2" ruleType="default"/>
+            <rule nodeStatus="2.0" ruleString="Node:Superoxide#&gt;=2.5" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="DSF" restingStatus="0.0" status="0.0" type="drug"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="DUSP1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:JUN#&gt;=1|Node:ATF2#&gt;=1)&amp;Node:DNADamage#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="DYRK1A" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="DYRK2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:ATM#&gt;=1&amp;Node:SIAH2#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="DYRK3" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="E2F1" restingStatus="1.0" status="0.0" type="default">
+            <rule nodeStatus="0.0" ruleString="Node:Rb#&gt;=1|Node:CDKN2A#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="EDVPComplex" restingStatus="0.0" status="0.0" type="general">
+            <rule nodeStatus="1.0" ruleString="(Node:UBR5#&gt;=1&amp;Node:DCAF1#&gt;=1&amp;Node:DDB1#&gt;=1&amp;Node:DYRK2#&gt;=1)&amp;Node:CEP78#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="EGFR" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="EGLN3" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ELK1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:MAPK14#&gt;=1|Node:JNK1#&gt;=1|Node:JNK2#&gt;=1|Node:JNK3#&gt;=1|Node:ERK1#&gt;=1|Node:ERK2#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ELK4" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:MAPK14#&gt;=1|Node:JNK1#&gt;=1|Node:JNK2#&gt;=1|Node:JNK3#&gt;=1|Node:ERK1#&gt;=1|Node:ERK2#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ELMO1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:HCK#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="EPO" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:HIF1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="EPOR" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:EPO#&gt;=1&amp;Node:PTPN6#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ERK1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:MAP2K1#&gt;=1|Node:Superoxide#&gt;=2)&amp;Node:DUSP1#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ERK2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:MAP2K1#&gt;=1|Node:Superoxide#&gt;=2)&amp;Node:DUSP1#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="FADD" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:RIPK1#&gt;=1&amp;Mod:RIPK1#ComplexII;==1)|Node:FAS#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="FAS" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:TP53#&gt;=1|(Node:JUN#&gt;=1&amp;Node:FOS#==0)&amp;((Node:YBX1#==0&amp;Node:PURA#==0)|Node:PURB#&gt;=1))&amp;Node:FASL#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="FASL" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:JNK1#&gt;=1|Node:JNK2#&gt;=1|Node:JNK3#&gt;=1|Node:FOXO3#&gt;=1|Node:NFATC1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="FCER1G" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CLEC4C#&gt;=1|Node:LILRA4#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="FCGR2B" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="FGR" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CCR3#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="FIG4" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="FKBP1A" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="FKBP1B" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="FOS" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:ELK4#&gt;=1|Node:ELK1#&gt;=1)&amp;Node:KCNIP3#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="FOXK1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:PP2A#&gt;=1|Node:mTORC1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="FOXO3" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:KAT5#&gt;=1&amp;(Node:AKT1#==0|Node:SGK3#==0)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="FOXP3" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="FXYD1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:PKA#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="FYN" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:JAK2#&gt;=1&amp;Node:AGTR1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="GAB1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:MET#&gt;=1|Node:SHC1#&gt;=1|Node:GRB2#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="GAB2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:SHC1#&gt;=1|Node:GRB2#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="GABARAP" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:TP53INP1#&gt;=1|Node:TP53INP2#&gt;=1)&amp;Node:VMP1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="GABARAPL2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:TP53INP1#&gt;=1|Node:TP53INP2#&gt;=1)&amp;Node:VMP1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="GPX1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="GRB2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:MET#&gt;=1|Node:CBL#&gt;=1|Node:CD22#&gt;=1|Node:EPOR#&gt;=1|Node:SHC1#&gt;=1|Node:KIT#&gt;=1|(Node:EGFR#&gt;=1&amp;Node:JAK2#&gt;=1)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="GRB7" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:KIT#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="GSK3A" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="GSK3B" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:FRAT1#&gt;=1)&amp;Node:AKT1#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="GSR" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="GYS1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="H1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:RNF8#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="H2AX" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:ATM#&gt;=1|Node:FOXO3#&gt;=1|Node:KAT5#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="HCK" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CCR3#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="HGF" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="HIPK2" restingStatus="1.0" status="0.0" type="default">
+            <rule nodeStatus="0.0" ruleString="Node:SIAH1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="HIST2H2BE" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:DYRK2#&gt;=1|Node:DYRK3#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="HIST3H3" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:DYRK1A#&gt;=1|Node:DYRK2#&gt;=1|Node:DYRK3#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="HOMER1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="HRK" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:JUN#&gt;=1&amp;Node:ATF2#&gt;=1&amp;Node:FOS#==0)&amp;Node:NitricOxide#&gt;1&amp;Node:KCNIP3#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="HSP90AA1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="HSPB1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:MAPKAPK2#&gt;=1&amp;Node:TRAF6#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="HVA" restingStatus="0.0" status="0.0" type="general"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ICAD" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CASP2#&gt;=1|Node:CASP3#&gt;=1|Node:CASP7#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="IFNB1" restingStatus="1.0" status="0.0" type="default">
+            <rule nodeStatus="0.0" ruleString="Node:NKRF#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="IGFBP1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:FOXO3#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="IKBKG" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:ATM#&gt;=1|Node:IRAK1#&gt;=1|Node:MAP3K3#&gt;=1|Node:MAP3K7#&gt;=1|Node:RIPK2#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="IL1A" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:Canonical_NFKB#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="IL1B" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:Canonical_NFKB#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="IL1R1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:IL1RAP#&gt;=1&amp;(Node:IL1A#&gt;=1|Node:IL1B#&gt;=1)&amp;Node:sIL1RAP#==0&amp;Node:IL1R2#==0&amp;Node:IL1RN#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="IL1R2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:IL1A#&gt;=1|Node:IL1B#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="IL1RAP" restingStatus="1.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="IL1RN" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:Canonical_NFKB#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="IL34" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="IL4" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:Canonical_NFKB#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="IL4R" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:IL4#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="IL6" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:MAPK14#&gt;=1|Node:Canonical_NFKB#&gt;=1)&amp;Node:KHSRP#==0&amp;Node:ZFP36#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="IL6R" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:IL6#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="INPP4B" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="INPP5D" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:KLRG1#&gt;=1|Node:FCGR2B#&gt;=1|Node:PECAM1#&gt;=1|Node:MET#&gt;=1|Node:CSF1R#&gt;=1|Node:CD22#&gt;=1|Node:CD300LF#&gt;=1|Node:CRKL#&gt;=1|Node:CSF3R#&gt;=1|Node:DOK3#&gt;=1|Node:GAB1#&gt;=1|Node:GRB2#&gt;=1|Node:SHC1#&gt;=1|Node:IL4R#&gt;=1|Node:SYK#&gt;=1|Node:LCK#&gt;=1|Node:JAK1#&gt;=1|Node:LYN#&gt;=1|Node:CD2AP#&gt;=1|Node:EPOR#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="INPPL1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:MET#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="IP3R1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:IP3#&gt;=0.5&amp;Node:Ca_c#&lt;3" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="IP3R2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:IP3#&gt;=0.5&amp;Node:Ca_c#&lt;3" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="IP3R3" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:IP3#&gt;=0.5&amp;Node:Ca_c#&lt;3" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="IQSEC1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="IRAK1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:IL1R1#&gt;=1|Node:IRAK4#&gt;=1|Node:MYD88#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="IRAK2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:IRAK4#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="IRAK4" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:MYD88#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="IRS1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:IL4R#&gt;=1|Node:IGF1R#&gt;=1)&amp;Node:PRKCZ#==0&amp;Node:PRKCD#==0&amp;Node:S6K1#==0&amp;Node:GRB10#==0&amp;Node:mTORC1#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="JAK1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:BRCA1#&gt;=1|Node:GHR#&gt;=1|Node:IFNGR#&gt;=1|Node:IGF1R#&gt;=1|Node:IL3R#&gt;=1|Node:IL13R#&gt;=1|Node:IL4R#&gt;=1|Node:IL5R#&gt;=1)&amp;Node:SOCS1#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="JAK2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:AGER#&gt;=1|(Node:EPOR#&gt;=1&amp;Node:PTPN6#==0)|Node:Superoxide#&gt;=2|Node:IL12R#&gt;=1|Node:AGTR1#&gt;=1|Node:BRCA1#&gt;=1|Node:CCR2#&gt;=1|Node:CCR5#&gt;=1|Node:CRLF2#&gt;=1|Node:CSF3R#&gt;=1|Node:CXCR4#&gt;=1|Node:ERBB2#&gt;=1|Node:GHR#&gt;=1|Node:HTR2A#&gt;=1|Node:IFNGR#&gt;=1|Node:IGF1R#&gt;=1|Node:IL23R#&gt;=1|Node:IL3R#&gt;=1|Node:IL13R#&gt;=1|Node:IL4R#&gt;=1|Node:IL5R#&gt;=1|Node:INSR#&gt;=1|Node:KIT#&gt;=1)&amp;Node:SOCS1#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="JMY" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:E2F1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="JNK1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:MAP2K7#&gt;=1|Node:MAP2K4#&gt;=1)&amp;Node:DUSP1#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="JNK2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:MAP2K7#&gt;=1|Node:MAP2K4#&gt;=1)&amp;Node:DUSP1#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="JNK3" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:MAP2K7#&gt;=1|Node:MAP2K4#&gt;=1)&amp;Node:DUSP1#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="JUN" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:JNK1#&gt;=1&amp;Node:CDKN2A#==0)|Node:JNK2#&gt;=1|(Node:JNK3#&gt;=1&amp;Node:CDKN2A#==0)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="KAT5" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:ABL1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="KATNA1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="KCNIP3" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:Ca_c#&lt;2" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="KHDRBS1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:HCK#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="KHSRP" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:MAPK14#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="KIT" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:KITLG#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="KITLG" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="KLRG1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CDH1#&gt;=1|Node:CDH2#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="LCK" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="LCMT1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="LILRA4" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="LIMK2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:ROCK1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="LVA" restingStatus="0.0" status="0.0" type="general"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="LYN" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CD22#&gt;=1|Node:EPOR#&gt;=1|Node:KIT#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="MAP1LC3A" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:TP53INP1#&gt;=1|Node:TP53INP2#&gt;=1)&amp;Node:VMP1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="MAP2K1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:RAF1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="MAP2K3" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:MAP3K3#&gt;=1|Node:MAP3K7#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="MAP2K4" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:MAP3K1#&gt;=1|Node:MAP3K3#&gt;=1|Node:MAP3K7#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="MAP2K6" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:MAP3K3#&gt;=1|Node:MAP3K7#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="MAP2K7" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:MAP3K5#&gt;=1|Node:MAP3K3#&gt;=1|Node:MAP3K7#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="MAP3K1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:PKN1#&gt;=1" ruleType="default"/>
+            <rule nodeStatus="1.0" ruleString="Node:TRAF6#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="MAP3K3" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="MAP3K5" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="MAP3K7" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:TRAF6#&gt;=1|Node:IRAK1#&gt;=1|Node:TAB2#&gt;=1|Node:HSPB1#&gt;=1|Node:TAB1#&gt;=1|Node:TAB3#&gt;=1|Node:BIRC2#&gt;=1|Node:BIRC3#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="MAP4K3" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="MAPK12" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:MAP2K3#&gt;=1|Node:MAP2K4#&gt;=1|Node:MAP2K6#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="MAPK13" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:MAP2K3#&gt;=1|Node:MAP2K4#&gt;=1|Node:MAP2K6#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="MAPKAPK2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:MAPK14#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="MCL1" restingStatus="1.0" status="0.0" type="default">
+            <rule nodeStatus="0.0" ruleString="Node:BIM#&gt;=1|Node:PUMA#&gt;=1|Node:NOXA#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="MCU" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:Ca_c#&gt;=3" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="MDC1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:H2AX#&gt;=1&amp;Node:ATM#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="MDM2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:AKT1#&gt;=1|Node:TP53#&gt;=1)&amp;(Node:ATM#==0|Node:PPM1D#&gt;=1)&amp;Node:CDKN2A#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="MET" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:HGF#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="MPO" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="MRN" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:DSB#&gt;=1|Node:Shortenedtelomeres#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="MTM1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="MTMR1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="MTMR2" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="MTMR3" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="MTMR6" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="MYD88" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:IL1R1#&gt;=1|(Node:AGER#&gt;=1&amp;Node:PRKCZ#&gt;=1)|Node:TIRAP#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="MYLK" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CALM1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="NCF1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:PKN1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="NCF2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:NCF1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="NCF4" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:NCF1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="NCK1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:DOK2#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="NFATC1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:PP2B#&gt;=1&amp;(Node:DYRK1A#==0&amp;Node:DYRK2#==0&amp;Node:GSK3A#==0&amp;Node:GSK3B#==0)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="NFATC2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:PP2B#&gt;=1&amp;(Node:GSK3A#==0&amp;Node:GSK3B#==0)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="NFATC3" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:PP2B#&gt;=1&amp;(Node:GSK3A#==0&amp;Node:GSK3B#==0)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="NFATC4" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:PP2B#&gt;=1&amp;(Node:GSK3A#==0&amp;Node:GSK3B#==0&amp;Node:CSNK1A1#==0)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="Canonical_NFKB" restingStatus="1.0" status="0.0" type="default">
+            <rule nodeStatus="0.0" ruleString="Node:NFKBIA#&gt;=1|Node:NOS2#&gt;=1|Node:DUSP1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="NHEJ" restingStatus="0.0" status="0.0" type="general">
+            <rule nodeStatus="1.0" ruleString="Node:TP53BP1#&gt;=1&amp;Node:DSB#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="NKRF" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="NOD1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="NOD2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:MDP#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="NODosome" restingStatus="0.0" status="0.0" type="general">
+            <rule nodeStatus="1.0" ruleString="Node:NOD1#&gt;=1&amp;Node:NOD2#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="NOS1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="NOS2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:RAC2#&gt;=1)&amp;Node:NKRF#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="NOTCH1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="NOXA" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:TP53#&gt;=1&amp;Node:CtBP#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="NR1I2" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="NR4A1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="NTN1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="NuRDComplex" restingStatus="0.0" status="0.0" type="general"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ORAI1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:STIM1#&gt;=1|Node:STIM2#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PIDD1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:TP53#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PARP1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:DNADamage#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="PCAF" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PDE4D" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:PKA#&gt;=1|Node:CAMK2#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="PDGFA" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PDGFAA" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:PDGFA#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PDGFAB" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:PDGFA#&gt;=1&amp;Node:PDGFB#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PDGFB" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:SP1#&gt;=1|Node:SP3#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PDGFBB" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:PDGFB#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PDGFRA" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:PDGFAA#&gt;=1|Node:PDGFAB#&gt;=1|Node:PDGFBB#&gt;=1)&amp;Node:CBL#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PDGFRB" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:PDGFAB#&gt;=1|Node:PDGFBB#&gt;=1)&amp;Node:CBL#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PDPK1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:PI34P#&gt;=0.5|Node:PI345P#&gt;=0.5" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="PDYN" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="PECAM1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PELI1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:IRAK4#&gt;=1|Node:IRAK1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PELI2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:IRAK4#&gt;=1|Node:IRAK1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PELI3" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:IRAK4#&gt;=1|Node:IRAK1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PFN1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:DIAPH1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PI3K" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:RAS#&gt;=1|Node:CCR3#&gt;=1|Node:MET#&gt;=1|Node:CSF1R#&gt;=1|Node:CBL#&gt;=1|Node:GAB1#&gt;=1|Node:GAB2#&gt;=1|Node:KIT#&gt;=1|Node:IRS1#&gt;=1|(Node:IFNGR#&gt;=1&amp;Node:JAK2#&gt;=1)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PIKFYVE" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:VAC14#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PIM1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:PP2A#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PKA" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:cAMP#&gt;=2" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PKN1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:PDPK1#&gt;=1|Node:RHOA#&gt;=1|Node:CDC42#&gt;=1|Node:RAC1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PKN2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:PDPK1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PKN2_F" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:PKN2#&gt;=1&amp;Node:CASP3#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PLA2G4A" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:Ca_c#&gt;=1|Node:ERK2#&gt;=1|Node:MAPK14#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PLA2G4C" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:Ca_c#&gt;=1|Node:ERK2#&gt;=1|Node:MAPK14#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PLCB2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CCR3#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PLCG1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:MET#&gt;=1|Node:CD22#&gt;=1|Node:GRB2#&gt;=1|Node:SOS1#&gt;=1|Node:SOS2#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PLCG2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CSF1R#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="PLN" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="PME1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="POU2F1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="PP1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="true" hasRules="true" knockdown="false" name="PP2A" restingStatus="0.0" status="0.0" type="PP2A">
+            <modification name="PPP2R2" restingStatus="0.0" status="0.0"/>
+            <modification name="PPP2R5" restingStatus="0.0" status="0.0"/>
+            <modification name="PPP2R3" restingStatus="0.0" status="0.0"/>
+            <rule modification="PPP2R2" modificationStatus="1.0" ruleString="Node:LCMT1#&gt;=1&amp;Node:Ceramide#&gt;=2" ruleType="modification"/>
+            <rule modification="PPP2R5" modificationStatus="1.0" ruleString="Node:Ceramide#&gt;=2&amp;Node:PRKCA#==0" ruleType="modification"/>
+            <rule modification="PPP2R2" modificationStatus="1.0" ruleString="Node:PME1#&gt;=1" ruleType="modification"/>
+            <rule nodeStatus="1.0" ruleString="Node:PTPA#&gt;=1&amp;Node:PME1#==0&amp;Node:TIP#==0&amp;Node:ANP32A#==0&amp;Node:SET#==0&amp;Node:CIP2A#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PP2B" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:Ca_c#&gt;=2|Node:CALM1#&gt;=1)&amp;(Node:BCL2#==0&amp;Node:ATP2B4#==0)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PPM1D" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:TP53#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PPP1CB" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:PPP1R12A#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="PPP1R12A" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PPP1R13B" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:E2F1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PRKCA" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:DAG#&gt;2|Node:PDPK1#&gt;=1)&amp;Node:PP2A#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PRKCB" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:PDPK1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PRKCD" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:PDPK1#&gt;=1&amp;Node:PKN2_F#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PRKCE" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:PDPK1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PRKCH" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:PDPK1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PRKCZ" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:AKT1#&gt;=1|Node:PDPK1#&gt;=1|Node:AGER#&gt;=1)&amp;Node:PKN2_F#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PRKD1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:PRKCE#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PRKDC" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:DNADamage#&gt;=1|Node:AKT1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PTEN" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:TP53#&gt;=1&amp;(Mod:TP53#Ser15;==1.0|Mod:TP53#Ser20;==1.0|Mod:TP53#Ser37;==1.0))" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PTK2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:SRC#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="PTPA" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PTPN11" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:KLRG1#&gt;=1|Node:EPOR#&gt;=1|Node:GAB1#&gt;=1|Node:GAB2#&gt;=1|Node:IL4R#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PTPN6" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CD22#&gt;=1|Node:CD300LF#&gt;=1|Node:IL4R#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PUMA" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="((Node:TP53#&gt;=1&amp;(Mod:TP53#Lys120;==1.0|Mod:TP53#Ser46;==1.0))&amp;Node:KAT5#&gt;=1)&amp;Node:BCL2#==0&amp;Node:BCLXL#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="PURA" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="PURB" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="ProCASP10" restingStatus="1.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="ProCASP8" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="ProCASP9" restingStatus="1.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="RAC1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:RAC1#==0&amp;((Node:ELMO1#&gt;=1&amp;Node:DOCK1#&gt;=1)|Node:TIAM1#&gt;=1|Node:VAV1#&gt;=1|Node:VAV2#&gt;=1|Node:DIAPH1#&gt;=1)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="RAC2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:RAC2#==0&amp;(Node:VAV1#&gt;=1)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="RAF1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:RAS#&gt;=1|Node:PRKCA#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="RAP1A" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:RAP1A#==0&amp;(Node:RAPGEF3#&gt;=1|Node:RAPGEF1#&gt;=1)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="RAP2A" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:RAP2A#==0&amp;(Node:RAPGEF3#&gt;=1|Node:RAPGEF1#&gt;=1)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="RAPGEF1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CRK#&gt;=1|Node:GRB2#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="RAPGEF3" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:cAMP#&gt;=2" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="RAS" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:RAS#==0&amp;((Node:SOS1#&gt;=1|Node:TIAM1#&gt;=1)&amp;Node:NF1#==0)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="RASA1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:CSF1R#&gt;=1|(Node:DOK2#&gt;=1&amp;Node:INPP5D#==0))&amp;Node:DOK1#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="RASSF1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:ATP2B4#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="RHOA" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:RHOA#==0&amp;(Node:VAV1#&gt;=1|Node:VAV2#&gt;=1|Node:AGER#&gt;=1)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="RHOG" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:RHOG#==0&amp;(Node:VAV1#&gt;=1)" ruleType="default"/>
+        </node>
+        <node hasModifications="true" hasRules="true" knockdown="false" name="RIPK1" restingStatus="0.0" status="0.0" type="RIPK1">
+            <modification name="ComplexI" restingStatus="0.0" status="0.0"/>
+            <modification name="ComplexII" restingStatus="0.0" status="0.0"/>
+            <rule modification="ComplexII" modificationStatus="1.0" ruleString="Node:CYLD#&gt;=1|(Node:BIRC2#==0&amp;Node:BIRC3#==0)" ruleType="modification"/>
+            <rule modification="ComplexI" modificationStatus="1.0" ruleString="(Node:BIRC2#&gt;=1|Node:BIRC3#&gt;=1)&amp;Node:CYLD#==0" ruleType="modification"/>
+            <rule nodeStatus="1.0" ruleString="(Node:PIDD1#&gt;=1|Node:TNFRSF1A#&gt;=1|Node:TRADD#&gt;=1)&amp;Node:CASP8#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="RIPK2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:NODosome#&gt;=1&amp;(Node:BIRC2#&gt;=1|Node:BIRC3#&gt;=1)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="RND3" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="RNF168" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:H1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="RNF8" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:MDC1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ROCK1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:RHOA#&gt;=1&amp;Node:RND3#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ROCK2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:RHOA#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="S6K1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:PDPK1#&gt;=1|Node:mTORC1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="RYR1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:Ca_c#&gt;=1|Node:Ca_er#==4|Node:HOMER1#&gt;=1|Node:NitricOxide#&gt;=2)&amp;Node:Ca_c#&lt;3&amp;Node:FKBP1A#==0&amp;Node:FKBP1B#==0" ruleType="default"/>
+            <rule nodeStatus="2.0" ruleString="(Node:Ca_c#&gt;=1|Node:Ca_er#==4|Node:HOMER1#&gt;=1|Node:NitricOxide#&gt;=2)&amp;Node:CAMK2#&gt;=1&amp;Node:Ca_c#&lt;3&amp;Node:FKBP1A#==0&amp;Node:FKBP1B#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="RYR2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:Ca_c#&gt;=1|Node:Ca_er#==4|Node:NitricOxide#&gt;=2)&amp;Node:Ca_c#&lt;3&amp;Node:HOMER1#==0&amp;Node:FKBP1A#==0&amp;Node:FKBP1B#==0" ruleType="default"/>
+            <rule nodeStatus="2.0" ruleString="(Node:Ca_c#&gt;=1|Node:Ca_er#==4|Node:NitricOxide#&gt;=2)&amp;(Node:CAMK2#&gt;=1|Node:PKA#&gt;=1)&amp;Node:Ca_c#&lt;3&amp;Node:HOMER1#==0&amp;Node:FKBP1A#==0&amp;Node:FKBP1B#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="RYR3" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:Ca_c#&gt;=1|Node:Ca_er#==4|Node:NitricOxide#&gt;=2)&amp;Node:Ca_c#&lt;3&amp;Node:FKBP1A#==0&amp;Node:FKBP1B#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="Rb" restingStatus="1.0" status="0.0" type="default">
+            <rule nodeStatus="0.0" ruleString="Node:CDK4_6#&gt;=1|Node:CDK2#&gt;=1|Node:SIRT1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="S100A1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="SET" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:PI3K#&gt;=1&amp;Node:Ceramide#&lt;2" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="SGK1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:mTORC2#&gt;=1&amp;Node:PDPK1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="SGK2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:mTORC2#&gt;=1&amp;Node:PDPK1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="SGK3" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:mTORC2#&gt;=1&amp;Node:PDPK1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="SGMS1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:FOXP3#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="SH3KBP1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CBL#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="SHC1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:MET#&gt;=1|Node:EPOR#&gt;=1|Node:IL4R#&gt;=1|Node:CD22#&gt;=1|Node:AGER#&gt;=1)&amp;Node:INPP5D#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="SIAH1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:ATM#&gt;=1|Node:ATR#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="SIAH2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:DYRK2#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="SIRT1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:E2F1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="SLA2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CSF1R#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="SLC24A1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="SLC24A2" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="SLC8A1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:Ca_c#&gt;=1&amp;Node:FXYD1#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="SLC8A1_n" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:GM1#&gt;=1&amp;Node:Ca_n#&gt;=1)&amp;Node:FXYD1#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="SLC8A2" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="SLC8A2_n" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:GM1#&gt;=1&amp;(Node:FXYD1#==0)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="SLC8A3" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="SLC8A3_n" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:GM1#&gt;=1&amp;(Node:KCNIP3#==0)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="SLC8B1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="SLN" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="SMPD1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="SOD1" restingStatus="1.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="SOS1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:GRB2#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="SOS2" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="SP1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="SP3" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="SRC" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:MET#&gt;=1|Node:DCC#&gt;=1|Node:FCER1G#&gt;=1|Node:AGER#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="STAT1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CSF1R#&gt;=1|Node:JAK2#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="STAT3" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:MET#&gt;=1|Node:CSF1R#&gt;=1|Node:JAK2#&gt;=1)|Node:STAT3#==2" ruleType="default"/>
+            <rule nodeStatus="2.0" ruleString="(Node:HES1#&gt;=1|Node:HES2#&gt;=1)&amp;Node:JAK2#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="STAT5" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:LYN#&gt;=1|Node:JAK2#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="STIM1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:Ca_er#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="STIM2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:Ca_er#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="SYK" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:CD22#&gt;=1|Node:FCER1G#&gt;=1)&amp;Node:CBL#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="Starvation" restingStatus="0.0" status="0.0" type="general"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="Survivin" restingStatus="1.0" status="0.0" type="default">
+            <rule nodeStatus="0.0" ruleString="Node:DIABLO#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="TAB1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:TRAF6#&gt;=1&amp;Node:MAPK14#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="TAB2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:RIPK1#&gt;=1&amp;Mod:RIPK1#ComplexI;==1.0)|Node:TRAF6#&gt;=1|Node:IRAK1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="TAB3" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:RIPK1#&gt;=1&amp;Mod:RIPK1#ComplexI;==1.0)|Node:TRAF6#&gt;=1&amp;Node:MAPK14#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="TEC" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:LYN#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="TERT" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:CIB1#&gt;=1|(Node:AKT1#&gt;=1&amp;Node:mTORC1#&gt;=1))&amp;(Node:EDVPComplex#==0&amp;Node:ABL1#==0&amp;(Node:PP2A#==0|(Node:PP2A#&gt;=1&amp;Mod:PP2A#PPP2R2;==0.0)|Node:HSP90AA1#&gt;=1))" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="TIAM1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:SRC#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="TIP" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="TP53BP1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:RNF168#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="TP53BP2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:E2F1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="TP53I3" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:TP53#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="TP53INP1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:PRKCD#&gt;=1|Node:TP53#&gt;=1)&amp;Node:mir155#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="TP53INP2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:VMP1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="TRAF6" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:IRAK1#&gt;=1|Node:IRAK2#&gt;=1|Node:IRAK4#&gt;=1|Node:MYD88#&gt;=1|Node:HSPB1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="TRIM28" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:ATM#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="TSC2" restingStatus="1.0" status="0.0" type="default">
+            <rule nodeStatus="0.0" ruleString="(Node:ERK1#&gt;=1|Node:ERK2#&gt;=1|Node:AKT1#&gt;=1)&amp;Node:AMPK#==0&amp;Node:DDIT4#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="UBR5" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="UNC5A" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:NTN1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="UNC5B" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:NTN1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="UNC5C" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:NTN1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="UNC5D" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:NTN1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="VAC14" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="VAV1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="VAV2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:SRC#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="VMP1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="VRK1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="WAS" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:HCK#&gt;=1|Node:FYN#&gt;=1|Node:CDC42#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="WASF1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="WASL" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CDC42#&gt;=1|Node:PI45P#&gt;=0.5" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="WIPF1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:HCK#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="XIAP" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="YBX1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ZFP36" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:MAPKAPK2#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="mTORC1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:AKT1#&gt;=1|Node:MAP4K3#&gt;=1|Node:RSK#&gt;=1)&amp;(Node:Rapamycin#==0&amp;Node:AMPK#==0&amp;(Node:TSC1#==0|Node:TSC2#==0))" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="mTORC2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:PI345P#&gt;=0.5" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="mir155" restingStatus="0.0" status="0.0" type="miRNA"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="EP300" restingStatus="0.0" status="0.0" type="miRNA">
+            <rule nodeStatus="1.0" ruleString="(Node:ATM#&gt;=1|Node:AKT1#&gt;=1)&amp;Node:SIRT1#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="MAPK14" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:MAP2K3#&gt;=1|Node:MAP2K4#&gt;=1|Node:MAP2K6#&gt;=1|Node:MAP2K7#&gt;=1|Node:Superoxide#&gt;=2)&amp;Node:PPM1D#==0&amp;Node:DUSP1#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="true" hasRules="true" knockdown="false" name="TP53" restingStatus="0.0" status="0.0" type="default">
+            <modification name="Ser15" restingStatus="0.0" status="0.0"/>
+            <modification name="Thr18" restingStatus="0.0" status="0.0"/>
+            <modification name="Ser20" restingStatus="0.0" status="0.0"/>
+            <modification name="Ser33" restingStatus="0.0" status="0.0"/>
+            <modification name="Ser37" restingStatus="0.0" status="0.0"/>
+            <modification name="Ser46" restingStatus="0.0" status="0.0"/>
+            <modification name="Lys120" restingStatus="0.0" status="0.0"/>
+            <modification name="Lys164" restingStatus="0.0" status="0.0"/>
+            <modification name="Lys305" restingStatus="0.0" status="0.0"/>
+            <modification name="Lys320" restingStatus="0.0" status="0.0"/>
+            <rule modification="Ser15" modificationStatus="0.0" ruleString="Node:PP1#&gt;=1|Node:PPM1D#&gt;=1" ruleType="modification"/>
+            <rule modification="Ser37" modificationStatus="0.0" ruleString="Node:PP1#&gt;=1|Node:PP2A#&gt;=1" ruleType="modification"/>
+            <rule modification="Lys120" modificationStatus="0.0" ruleString="Node:NuRDComplex#&gt;=1" ruleType="modification"/>
+            <rule modification="Lys164" modificationStatus="0.0" ruleString="Node:NuRDComplex#&gt;=1" ruleType="modification"/>
+            <rule modification="Lys305" modificationStatus="0.0" ruleString="Node:NuRDComplex#&gt;=1" ruleType="modification"/>
+            <rule modification="Lys320" modificationStatus="0.0" ruleString="Node:NuRDComplex#&gt;=1" ruleType="modification"/>
+            <rule modification="Ser15" modificationStatus="1.0" ruleString="Node:ATM#&gt;=1|Node:ATR#&gt;=1|Node:PRKDC#&gt;=1|Node:AMPK#&gt;=1|Node:TP53RK#&gt;=1|Node:mTORC1#&gt;=1|Node:STK11#&gt;=1" ruleType="modification"/>
+            <rule modification="Thr18" modificationStatus="1.0" ruleString="Node:VRK1#&gt;=1" ruleType="modification"/>
+            <rule modification="Ser20" modificationStatus="1.0" ruleString="Node:CHEK1#&gt;=1|Node:CHEK2#&gt;=1" ruleType="modification"/>
+            <rule modification="Ser33" modificationStatus="1.0" ruleString="Node:MAPK14#&gt;=1|Node:GSK3B#&gt;=1" ruleType="modification"/>
+            <rule modification="Ser37" modificationStatus="1.0" ruleString="Node:MAPK14#&gt;=1|Node:ATR#&gt;=1" ruleType="modification"/>
+            <rule modification="Ser46" modificationStatus="1.0" ruleString="Node:MAPK14#&gt;=1|(Node:TP53INP1#&gt;=1&amp;(Node:CBX4#&gt;=1|Node:PIAS3#&gt;=1))|Node:DYRK2#&gt;=1" ruleType="modification"/>
+            <rule modification="Lys120" modificationStatus="1.0" ruleString="Node:KAT5#&gt;=1" ruleType="modification"/>
+            <rule modification="Lys164" modificationStatus="1.0" ruleString="Node:CBP#&gt;=1|(Node:EP300#&gt;=1&amp;Node:MDM2#==0)" ruleType="modification"/>
+            <rule modification="Lys305" modificationStatus="1.0" ruleString="Node:CBP#&gt;=1|(Node:EP300#&gt;=1&amp;Node:MDM2#==0)" ruleType="modification"/>
+            <rule modification="Lys320" modificationStatus="1.0" ruleString="Node:PCAF#&gt;=1" ruleType="modification"/>
+            <rule nodeStatus="1.0" ruleString="((Mod:TP53#Ser15;==1.0|Mod:TP53#Thr18;==1.0|Mod:TP53#Ser20;==1.0|Mod:TP53#Ser33;==1.0|Mod:TP53#Ser37;==1.0|Mod:TP53#Ser46;==1.0)&amp;(Node:MDM2#==0|(Node:mTORC1#&gt;=1|Node:mTORC2#&gt;=1)))|(Mod:TP53#Thr18;==1.0&amp;Node:MDM2#&gt;=1)|(Mod:TP53#Ser15;==1.0&amp;Mod:TP53#Thr18;==1.0&amp;Mod:TP53#Ser20;==1.0&amp;Mod:TP53#Ser33;==1.0&amp;Mod:TP53#Ser37;==1.0&amp;Mod:TP53#Ser46;==1.0&amp;Node:MDM2#&gt;=1)|((Mod:TP53#Lys120;==1.0|Mod:TP53#Lys164;==1.0|Mod:TP53#Lys305;==1.0|Mod:TP53#Lys320;==1.0)&amp;(Node:MDM2#==0|(Node:mTORC1#&gt;=1|Node:mTORC2#&gt;=1)))" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="sIL1R1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="sIL1R2" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="sIL1RAP" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="tBID" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:CASP2#&gt;=1|Node:CASP8#&gt;=1|Node:CASP10#&gt;=1)&amp;Node:BID#&gt;=1&amp;(Node:BCLXL#==0&amp;Node:BCL2#==0&amp;Node:BCL2L2#==0&amp;Node:MCL1#==0&amp;Node:BCL2A1#==0)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="Apigenin" restingStatus="0.0" status="0.0" type="drug"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="SSB" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CBX4" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:Superoxide#&gt;1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PIAS3" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:Superoxide#&gt;1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CDC25A" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CDC25B" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CDC25C" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:MitosisStimule#&gt;=1|Node:CDK1#&gt;=1)&amp;(Node:MAPK14#==0&amp;Node:CHEK1#==0)" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CDK1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CDC25C#&gt;=1|Node:WEE1#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CCND" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CDK4_6#&gt;=1&amp;Node:CDKN2A#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CCNE" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:E2F1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CCNA" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:E2F1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="DNAReplication" restingStatus="0.0" status="0.0" type="general">
+            <rule nodeStatus="1.0" ruleString="Node:CDK2#&gt;=1&amp;Node:CCNA#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="WEE1" restingStatus="1.0" status="1.0" type="default">
+            <rule nodeStatus="0.0" ruleString="Node:CDK1#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="HIF1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="(Node:Hypoxia#&gt;=1)&amp;Node:CDKN2A#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="PSMC3" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="HMGB1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="AGER" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:AGE#&gt;=1|Node:HMGB1#&gt;=1|Node:S100A1#&gt;=1|Node:S100B#&gt;=1|Node:S100P#&gt;=1|Node:ITGAM#&gt;=1" ruleType="default"/>
+            <rule nodeStatus="2.0" ruleString="(Node:AGE#&gt;=1|Node:HMGB1#&gt;=1|Node:S100A1#&gt;=1|Node:S100B#&gt;=1|Node:S100P#&gt;=1|Node:ITGAM#&gt;=1)&amp;Node:Canonical_NFKB#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="S100B" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="S100P" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CD36" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:AGE#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="ITGAM" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CTLA4" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:JAK2#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="IL12R" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="AGT" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="AGTR1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:AGT#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="BRCA1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:ATM#&gt;=1|Node:AKT1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CRLF2" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="CSF2" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="JAK3" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:CXCR4#&gt;=1|Node:GHR#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="ERBB2" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="FES" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:JAK2#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="GHR" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:GH1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="TYK2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:GHR#&gt;=1|Node:IL23R#&gt;=1|Node:IL13R#&gt;=1|Node:IL4R#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="GH1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="HES1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="HES2" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="HTR2A" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PLCB1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:HTR2A#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="IFNGR" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="IGF1R" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:IGF1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="SOCS1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:IRF1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="IRF1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:STAT1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="IL23R" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="IL3R" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="IL13R" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:IL13#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="IL5R" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="INSR" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="TIRAP" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:AGER#&gt;=1&amp;Node:PRKCZ#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="FOXO4" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="FOXO1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="MSN" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:RHOA#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="TNF" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="TNFRSF1A" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:TNF#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="TNFRSF1B" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:TNF#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="TRADD" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:TNFRSF1A#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="TRAF2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:TRADD#&gt;=1|Node:TNFRSF1B#&gt;=1|Node:LTBR#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="TRAF5" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:TRADD#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="CYLD" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:Canonical_NFKB#&gt;=1&amp;Node:CASP8#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="TRAF1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:TNFRSF1B#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="AMP" restingStatus="0.0" status="1.0" type="metabolite">
+            <property income="-0.5" maxValue="2.0" minValue="1.0"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="Ca_c" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="0.0" maxValue="3.0" minValue="0.0"/>
+            <rule conversionValue="1.0" inputNode="Ca_g" outputNode="Ca_c" ruleString="Node:IP3R1#&gt;=1|Node:IP3R2#&gt;=1|Node:IP3R3#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="1.0" inputNode="Ca_er" outputNode="Ca_c" ruleString="Node:IP3R1#&gt;=1|Node:IP3R2#&gt;=1|Node:IP3R3#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="1.0" inputNode="Ca_m" outputNode="Ca_c" ruleString="Node:SLC8B1#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="1.0" inputNode="Ca_m" outputNode="Ca_c" ruleString="Node:SLC8A3#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="1.0" inputNode="Ca_er" outputNode="Ca_c" ruleString="Node:SLC8A3#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="1.0" inputNode="Ca_er" outputNode="Ca_c" ruleString="Node:RYR1#&gt;=1|Node:RYR2#&gt;=1|Node:RYR3#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="1.0" inputNode="Ca_ec" outputNode="Ca_c" ruleString="Node:ORAI1#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="1.0" inputNode="Ca_ec" outputNode="Ca_c" ruleString="Node:CACNA1S#&gt;=1|Node:CACNA1C#&gt;=1|Node:CACNA1D#&gt;=1|Node:CACNA1F#&gt;=1|Node:CACNA1A#&gt;=1|Node:CACNA1B#&gt;=1|Node:CACNA1E#&gt;=1|Node:CACNA1G#&gt;=1|Node:CACNA1H#&gt;=1|Node:CACNA1I#&gt;=1" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="Ca_ec" restingStatus="0.0" status="2.0" type="metabolite">
+            <property income="1.0" maxValue="3.0" minValue="0.0"/>
+            <rule conversionValue="1.0" inputNode="Ca_c" outputNode="Ca_ec" ruleString="Node:SLC8A1#&gt;=1|Node:SLC8A2#&gt;=1|Node:SLC8A2#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="1.0" inputNode="Ca_c" outputNode="Ca_ec" ruleString="Node:SLC24A1#&gt;=1|Node:SLC24A2#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="1.0" inputNode="Ca_c" outputNode="Ca_ec" ruleString="Node:ATP2B1#==1|Node:ATP2B2#==1|Node:ATP2B3#==1|Node:ATP2B4#==1" ruleType="metabolic"/>
+            <rule conversionValue="2.0" inputNode="Ca_c" outputNode="Ca_ec" ruleString="Node:ATP2B1#&gt;=2|Node:ATP2B2#&gt;=2|Node:ATP2B3#&gt;=2|Node:ATP2B4#&gt;=2" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="Ca_er" restingStatus="0.0" status="2.0" type="metabolite">
+            <property income="0.0" maxValue="4.0" minValue="0.0"/>
+            <rule conversionValue="1.0" inputNode="Ca_c" outputNode="Ca_er" ruleString="Node:ATP2A1#&gt;=1|Node:ATP2A2#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="1.0" inputNode="Ca_n" outputNode="Ca_er" ruleString="Node:SLC8A1_n#&gt;=1|Node:SLC8A2_n#&gt;=1|Node:SLC8A3_n#&gt;=1" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="Ca_g" restingStatus="0.0" status="1.0" type="metabolite">
+            <property income="0.0" maxValue="2.0" minValue="0.0"/>
+            <rule conversionValue="1.0" inputNode="Ca_c" outputNode="Ca_g" ruleString="Node:ATP2C1#&gt;=1|Node:ATP2C2#&gt;=1" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="Ca_m" restingStatus="0.0" status="2.0" type="metabolite">
+            <property income="0.0" maxValue="3.0" minValue="0.0"/>
+            <rule conversionValue="1.0" inputNode="Ca_c" outputNode="Ca_m" ruleString="Node:MCU#&gt;=1" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="Ca_n" restingStatus="0.0" status="1.0" type="metabolite">
+            <property income="0.0" maxValue="2.0" minValue="0.0"/>
+            <rule conversionValue="1.0" inputNode="Ca_er" outputNode="Ca_n" ruleString="Node:RYR1#&gt;=1|Node:RYR2#&gt;=1|Node:RYR3#&gt;=1" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="Ceramide" restingStatus="0.0" status="1.0" type="metabolite">
+            <property income="0.2" maxValue="2.0" minValue="0.0"/>
+            <rule conversionValue="1.0" inputNode="DAG" outputNode="Ceramide" ruleString="Node:CERS1#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="1.0" inputNode="DAG" outputNode="Ceramide" ruleString="Node:SMPD1#&gt;=1" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="DAG" restingStatus="0.0" status="1.0" type="metabolite">
+            <property income="-0.2" maxValue="3.0" minValue="0.0"/>
+            <rule conversionValue="1.0" inputNode="PI45P" outputNode="DAG" ruleString="Node:PLCB2#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="1.0" inputNode="PI45P" outputNode="DAG" ruleString="Node:PLCG1#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="1.0" inputNode="PI45P" outputNode="DAG" ruleString="Node:PLCG2#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="1.0" inputNode="Ceramide" outputNode="DAG" ruleString="Node:SGMS1#&gt;=1" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="Fumarate" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="-0.5" maxValue="3.0" minValue="0.0"/>
+            <rule conversionValue="1.0" inputNode="Succinate" outputNode="Fumarate" ruleString="Node:ComplexII#&gt;=1" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="GM1" restingStatus="0.0" status="1.0" type="metabolite">
+            <property income="0.0" maxValue="0.0" minValue="0.0"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="GSH" restingStatus="0.0" status="2.0" type="metabolite">
+            <property income="0.0" maxValue="3.0" minValue="0.0"/>
+            <rule conversionValue="1.0" inputNode="GSSG" outputNode="GSH" ruleString="Node:GSR#&gt;=1" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="GSSG" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="0.0" maxValue="3.0" minValue="0.0"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="H2O" restingStatus="0.0" status="1.0" type="metabolite">
+            <property income="-0.5" maxValue="3.0" minValue="0.0"/>
+            <rule conversionValue="0.5" inputNode="H2O2" outputNode="H2O" ruleString="Node:CAT#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="0.5" inputNode="H2O2" outputNode="Oxygen" ruleString="Node:CAT#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="0.5" inputNode="H2O2" outputNode="H2O" ruleString="Node:GPX1#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="0.5" inputNode="H2O2" outputNode="Oxygen" ruleString="Node:GPX1#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="1.0" inputNode="Oxygen" outputNode="H2O" ruleString="Node:ComplexIV#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="1.0" inputNode="GSH" outputNode="GSSG" ruleString="Node:GPX1#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="1.0" inputNode="OH" outputNode="H2O" ruleString="Node:DSF#&gt;=1" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="H2O2" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="0.0" maxValue="3.0" minValue="0.0"/>
+            <rule conversionValue="0.25" inputNode="Superoxide" outputNode="H2O2" ruleString="Node:SOD1#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="0.25" inputNode="Superoxide" outputNode="Oxygen" ruleString="Node:SOD1#&gt;=1" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="HOCl" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="-0.5" maxValue="3.0" minValue="0.0"/>
+            <rule conversionValue="1.0" inputNode="H2O2" outputNode="HOCl" ruleString="Node:MPO#&gt;=1" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="IP3" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="-0.1" maxValue="2.0" minValue="0.0"/>
+            <rule conversionValue="0.5" inputNode="PI45P" outputNode="IP3" ruleString="Node:PLCB2#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="0.5" inputNode="PI45P" outputNode="IP3" ruleString="Node:PLCG1#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="0.5" inputNode="PI45P" outputNode="IP3" ruleString="Node:PLCG2#&gt;=1" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="MDP" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="0.0" maxValue="2.0" minValue="0.0"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="NAD" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="-0.5" maxValue="3.0" minValue="0.0"/>
+            <rule conversionValue="1.0" inputNode="NADH" outputNode="NAD" ruleString="Node:ComplexI#&gt;=1" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="NADH" restingStatus="0.0" status="1.0" type="metabolite">
+            <property income="0.1" maxValue="3.0" minValue="0.0"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="NADP" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="-0.5" maxValue="3.0" minValue="0.0"/>
+            <rule conversionValue="1.0" inputNode="NADPH" outputNode="NADP" ruleString="Node:CYBB#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="1.0" inputNode="Oxygen" outputNode="Superoxide" ruleString="Node:CYBB#&gt;=1" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="NADPH" restingStatus="0.0" status="1.0" type="metabolite">
+            <property income="0.1" maxValue="3.0" minValue="0.0"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="NitricOxide" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="-0.5" maxValue="3.0" minValue="0.0"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="OH" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="-0.2" maxValue="3.0" minValue="0.0"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="Oxygen" restingStatus="0.0" status="1.0" type="metabolite">
+            <property income="2.0" maxValue="3.0" minValue="0.0"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PI345P" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="-0.1" maxValue="2.0" minValue="0.0"/>
+            <rule conversionValue="0.5" inputNode="PI45P" outputNode="PI345P" ruleString="Node:PI3K#&gt;=1" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PI34P" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="-0.1" maxValue="2.0" minValue="0.0"/>
+            <rule conversionValue="0.5" inputNode="PI3P" outputNode="PI34P" ruleString="Node:PI3K#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="0.5" inputNode="PI345P" outputNode="PI34P" ruleString="Node:INPP5D#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="0.5" inputNode="PI345P" outputNode="PI34P" ruleString="Node:INPPL1#&gt;=1" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PI35P" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="-0.1" maxValue="2.0" minValue="0.0"/>
+            <rule conversionValue="0.5" inputNode="PI3P" outputNode="PI35P" ruleString="Node:PIKFYVE#&gt;=1" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PI3P" restingStatus="0.0" status="1.0" type="metabolite">
+            <property income="-0.1" maxValue="2.0" minValue="1.0"/>
+            <rule conversionValue="0.5" inputNode="PtdIns" outputNode="PI3P" ruleString="Node:PI3K#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="0.5" inputNode="PI34P" outputNode="PI3P" ruleString="Node:INPP4B#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="0.5" inputNode="PI35P" outputNode="PI3P" ruleString="Node:FIG4#&gt;=1" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PI45P" restingStatus="0.0" status="2.0" type="metabolite">
+            <property income="-0.1" maxValue="2.0" minValue="0.0"/>
+            <rule conversionValue="0.5" inputNode="PI345P" outputNode="PI45P" ruleString="Node:PTEN#&gt;=1" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PI5P" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="-0.1" maxValue="2.0" minValue="0.0"/>
+            <rule conversionValue="0.5" inputNode="PtdIns" outputNode="PI5P" ruleString="Node:PIKFYVE#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="0.5" inputNode="PI35P" outputNode="PI5P" ruleString="Node:MTM1#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="0.5" inputNode="PI35P" outputNode="PI5P" ruleString="Node:MTMR2#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="0.5" inputNode="PI35P" outputNode="PI5P" ruleString="Node:MTMR3#&gt;=1" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="Peroxynitrite" restingStatus="0.0" status="1.0" type="metabolite">
+            <property income="0.0" maxValue="0.0" minValue="0.0"/>
+            <rule conversionValue="0.25" inputNode="NitricOxide" outputNode="Peroxynitrite" ruleString="Node:NitricOxide#&gt;=1&amp;Node:Superoxide#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="0.25" inputNode="Superoxide" outputNode="Peroxynitrite" ruleString="Node:NitricOxide#&gt;=1&amp;Node:Superoxide#&gt;=1" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PtdIns" restingStatus="0.0" status="2.0" type="metabolite">
+            <property income="0.2" maxValue="2.0" minValue="1.0"/>
+            <rule conversionValue="0.5" inputNode="PI3P" outputNode="PtdIns" ruleString="Node:MTM1#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="0.5" inputNode="PI3P" outputNode="PtdIns" ruleString="Node:MTMR1#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="0.5" inputNode="PI3P" outputNode="PtdIns" ruleString="Node:MTMR2#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="0.5" inputNode="PI3P" outputNode="PtdIns" ruleString="Node:MTMR3#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="0.5" inputNode="PI3P" outputNode="PtdIns" ruleString="Node:MTMR6#&gt;=1" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="Succinate" restingStatus="0.0" status="1.0" type="metabolite">
+            <property income="0.1" maxValue="3.0" minValue="0.0"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="Superoxide" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="0.0" maxValue="3.0" minValue="0.0"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="Ubiquinol" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="0.0" maxValue="3.0" minValue="0.0"/>
+            <rule conversionValue="1.0" inputNode="Ubiquinone" outputNode="Ubiquinol" ruleString="Node:ComplexI#&gt;=1|Node:ComplexII#&gt;=1" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="Ubiquinone" restingStatus="0.0" status="3.0" type="metabolite">
+            <property income="0.0" maxValue="3.0" minValue="0.0"/>
+            <rule conversionValue="1.0" inputNode="Ubisemiquinone" outputNode="Ubiquinone" ruleString="Node:Ubisemiquinone#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="1.0" inputNode="Oxygen" outputNode="Superoxide" ruleString="Node:Ubisemiquinone#&gt;=1" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="Ubisemiquinone" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="0.0" maxValue="3.0" minValue="0.0"/>
+            <rule conversionValue="1.0" inputNode="Ubiquinol" outputNode="Ubisemiquinone" ruleString="Node:ComplexIII#&gt;=1" ruleType="metabolic"/>
+            <rule conversionValue="1.0" inputNode="Ubiquinol" outputNode="Ubisemiquinone" ruleString="Node:Ubiquinol#&gt;=2" ruleType="metabolic"/>
+            <rule conversionValue="1.0" inputNode="Oxygen" outputNode="Superoxide" ruleString="Node:Ubiquinol#&gt;=2" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="cAMP" restingStatus="0.0" status="1.0" type="metabolite">
+            <property income="0.0" maxValue="3.0" minValue="1.0"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="G1_Phase" restingStatus="0.0" status="1.0" type="metabolite">
+            <property income="0.0" maxValue="1.0" minValue="0.0"/>
+            <rule conversionValue="1.0" inputNode="Mitosis" outputNode="G1_Phase" ruleString="Node:Mitosis#&gt;=1" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="S_Phase" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="0.0" maxValue="1.0" minValue="0.0"/>
+            <rule conversionValue="1.0" inputNode="G1_Phase" outputNode="S_Phase" ruleString="Node:CDK2#&gt;=1&amp;Node:CCNE#&gt;=1&amp;Node:G1_Phase#&gt;=1" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="G2_Phase" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="0.0" maxValue="1.0" minValue="0.0"/>
+            <rule conversionValue="1.0" inputNode="S_Phase" outputNode="G2_Phase" ruleString="Node:DNAReplication#&gt;=1&amp;Node:S_Phase#&gt;=1" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="Mitosis" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="0.0" maxValue="1.0" minValue="0.0"/>
+            <rule conversionValue="1.0" inputNode="G2_Phase" outputNode="Mitosis" ruleString="Node:CDK1#&gt;=1&amp;Node:G2_Phase#&gt;=1" ruleType="metabolic"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="MitosisStimule" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="0.2" maxValue="2.0" minValue="0.0"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="AGE" restingStatus="0.0" status="0.0" type="metabolite">
+            <property income="-0.25" maxValue="2.0" minValue="0.0"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="FRAT1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="TP53RK" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:AKT1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="Rapamycin" restingStatus="0.0" status="0.0" type="drug"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="EIF4EBP1" restingStatus="1.0" status="0.0" type="default">
+            <rule nodeStatus="0.0" ruleString="Node:mTORC1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="EIF4F" restingStatus="1.0" status="0.0" type="default">
+            <rule nodeStatus="0.0" ruleString="Node:EIF4EBP1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="RHEB" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="STK11" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:GlucoseDeprivation#&gt;=1|(Node:TP53#&gt;=1&amp;(Mod:TP53#Ser15;==1.0|Mod:TP53#Ser20;==1.0|Mod:TP53#Ser37;==1.0))" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="TSC1" restingStatus="1.0" status="0.0" type="default">
+            <rule nodeStatus="0.0" ruleString="(Node:ERK1#&gt;=1|Node:ERK2#&gt;=1)&amp;Node:AMPK#==0&amp;Node:DDIT4#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="RSK" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:ERK1#&gt;=1|Node:ERK2#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="NF1" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:AKT1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="NFKBIA" restingStatus="1.0" status="0.0" type="default">
+            <rule nodeStatus="0.0" ruleString="Node:IKK#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="IKK" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:MAP3K7#&gt;=1&amp;Node:CYLD#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="NonCanonical_NFKB" restingStatus="1.0" status="0.0" type="default">
+            <rule nodeStatus="0.0" ruleString="Node:P100#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="P100" restingStatus="1.0" status="0.0" type="default">
+            <rule nodeStatus="0.0" ruleString="Node:NIK#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="NIK" restingStatus="1.0" status="0.0" type="default">
+            <rule nodeStatus="0.0" ruleString="Node:TRAF3#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="TRAF3" restingStatus="1.0" status="0.0" type="default">
+            <rule nodeStatus="0.0" ruleString="Node:TRAF2#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="LTBR" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:LTA#&gt;=1|Node:LTB#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="LTA" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="LTB" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PTGS2" restingStatus="0.0" status="0.0" type="default">
+            <rule nodeStatus="1.0" ruleString="Node:Canonical_NFKB#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="IGF1" restingStatus="0.0" status="0.0" type="default"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="GlucoseDeprivation" restingStatus="0.0" status="0.0" type="general"/>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="Hypoxia" restingStatus="0.0" status="0.0" type="general"/>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="DDIT4" restingStatus="0.0" status="0.0" type="general">
+            <rule nodeStatus="1.0" ruleString="Node:HIF1#&gt;=1|(Node:TP53#&gt;=1&amp;(Mod:TP53#Ser15;==1.0|Mod:TP53#Ser20;==1.0|Mod:TP53#Ser37;==1.0))" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="GRB10" restingStatus="0.0" status="0.0" type="general">
+            <rule nodeStatus="1.0" ruleString="Node:mTORC1#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="SESN1" restingStatus="0.0" status="0.0" type="general">
+            <rule nodeStatus="1.0" ruleString="(Node:TP53#&gt;=1&amp;(Mod:TP53#Ser15;==1.0|Mod:TP53#Ser20;==1.0|Mod:TP53#Ser37;==1.0))" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="SESN2" restingStatus="0.0" status="0.0" type="general">
+            <rule nodeStatus="1.0" ruleString="(Node:TP53#&gt;=1&amp;(Mod:TP53#Ser15;==1.0|Mod:TP53#Ser20;==1.0|Mod:TP53#Ser37;==1.0))" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="ULK1" restingStatus="0.0" status="0.0" type="general">
+            <rule nodeStatus="1.0" ruleString="(Node:AMPK#&gt;=1)&amp;Node:mTORC1#==0" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="PRDM1" restingStatus="0.0" status="0.0" type="general">
+            <rule nodeStatus="1.0" ruleString="Node:Canonical_NFKB#&gt;=1" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="true" knockdown="false" name="Shortenedtelomeres" restingStatus="0.0" status="0.0" type="general">
+            <rule nodeStatus="1.0" ruleString="Node:DSB#&gt;=2" ruleType="default"/>
+        </node>
+        <node hasModifications="false" hasRules="false" knockdown="false" name="IL13" restingStatus="0.0" status="0.0" type="general"/>
+    </nodes>
+</root>
